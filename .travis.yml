@@ -3,6 +3,8 @@ language: generic
 branches:
   only:
     - auto
+    - try
+    - rollup
 
 script: ./run_tests.sh
 
