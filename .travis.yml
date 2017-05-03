@@ -6,7 +6,7 @@ branches:
     - try
     - rollup
 
-script: ./run_tests.sh
+script: ./ci/scripts/run_tests.sh
 
 notifications:
   webhooks: http://52.27.25.33:54856/travis
