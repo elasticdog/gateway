@@ -14,4 +14,4 @@ inputs:
     path: elasticsearch-extra/x-pack-elasticsearch
 
 run:
-  path: ./x-pack-elasticsearch/ci/scripts/run_tests.sh
+  path: ./elasticsearch-extra/x-pack-elasticsearch/ci/scripts/run_tests.sh
