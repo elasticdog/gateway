@@ -9,6 +9,7 @@ image_resource:
     tag: 3.5
 
 inputs:
+  - name: elasticsearch
   - name: x-pack-elasticsearch
 
 run:
