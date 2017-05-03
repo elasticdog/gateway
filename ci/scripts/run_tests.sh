@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "WE'RE ON THE 5.X BRANCH!"
+
 SUCCESS_RATE=80
 printf 'percentage of runs that succeed: %s%%\n' "$SUCCESS_RATE"
 
