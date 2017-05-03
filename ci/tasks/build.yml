@@ -11,6 +11,7 @@ image_resource:
 inputs:
   - name: elasticsearch
   - name: x-pack-elasticsearch
+    path: elasticsearch-extra/x-pack-elasticsearch
 
 run:
   path: ./x-pack-elasticsearch/ci/scripts/run_tests.sh
