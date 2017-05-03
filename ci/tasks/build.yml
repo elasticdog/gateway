@@ -1,0 +1,15 @@
+---
+
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: alpine
+    tag: 3.5
+
+inputs:
+  - name: x-pack-elasticsearch
+
+run:
+  path: ./x-pack-elasticsearch/ci/scripts/run_tests.sh
