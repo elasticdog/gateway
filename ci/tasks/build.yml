@@ -13,4 +13,5 @@ inputs:
   - name: x-pack-elasticsearch
 
 run:
-  path: ./x-pack-elasticsearch/ci/scripts/run_tests.sh
+  path: echo
+  args: [hello world]
