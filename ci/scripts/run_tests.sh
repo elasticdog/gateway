@@ -3,7 +3,7 @@
 SUCCESS_RATE=80
 printf 'percentage of runs that succeed: %s%%\n' "$SUCCESS_RATE"
 
-WORK_DURATION=45
+WORK_DURATION=25
 printf 'pretending to work for %i seconds... ' "$WORK_DURATION"
 sleep $WORK_DURATION
 printf 'done\n'
