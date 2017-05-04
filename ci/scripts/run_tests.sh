@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+env | sort
+
 SUCCESS_RATE=80
 printf 'percentage of runs that succeed: %s%%\n' "$SUCCESS_RATE"
 
